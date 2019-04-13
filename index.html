@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+<style>
+#nav {
+  background-color: #333;
+}
+
+
+#listItem {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#listItem {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+<div id="nav">
+  <div class="contentWrapper">
+  <ul class="flexContainer">
+      <li class="spacer" />
+      <li id="listItem" onClick="toggleShoppingCart()">Cart</li>
+    </ul>
+  </div>
+</div>
+
+<div id="shoppingCart"></div>
+
+<div id="root"></div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
